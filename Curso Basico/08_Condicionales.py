@@ -1,7 +1,7 @@
-edad = 17
-if edad >=18:
-  print ("sos mayor de edad")
-elif edad == 50:
-  print ("Tienes justo 50 años")
-else:
+edad = 19
+if edad < 18:
   print ("sos menor de edad")
+elif edad == 18:
+  print ("Tienes 18 años")
+else:
+  print ("sos mayor de edad")

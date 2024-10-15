@@ -1,10 +1,10 @@
 class MyPerson:
   pass # ejecutar aunque no tenga nada
 
-print(MyPerson()) # parentesis opcional (dependiendo)
+print(MyPerson()) # parentesis opcional
 
 
-# 
+# clase
 class Person:
   def __init__(self, name, surname, alias = "Sin alias"):
     self.__name = name # __Privado
@@ -14,7 +14,7 @@ class Person:
   
   # (Funcion dentro de la clase)
   def walk(self): 
-    print(f"({self.alias}) esta caminando..")
+    print(f"({self.alias}) está caminando..")
 
   # Funcion => return fullname
   def get_fullname(self):

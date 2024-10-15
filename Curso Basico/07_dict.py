@@ -1,4 +1,4 @@
-# OBJETO / Json
+# OBJETO
 
 my_dict1 = dict()
 my_dict2 = {}
@@ -23,7 +23,3 @@ print(my_dict.items()) # lista de items
 print(my_dict.keys()) # lista de claves
 print(my_dict.values()) # lista de valores
 my_new_dict = my_dict.fromkeys(my_dict) # nuevo dicc(sin valores) con claves de otros dicts
-
-
-print("__________________")
-print(my_new_dict)

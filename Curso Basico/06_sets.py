@@ -1,5 +1,4 @@
-# No es una estructura ordenada 
-# y no se repiten los elementos
+# Desordenada y no se repiten los elementos
 
 my_set1 = set()
 my_set2 = {} # diccionario inicialmente

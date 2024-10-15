@@ -2,15 +2,18 @@
 
 string = "My String variable"
 int = 5
+float = 1.5
+complex = 3 + 1j
 bool = False
-variable = bool # variable como variable
-del variable # borrar bariable
 
-# int => string
-int_to_str = str(int)
+# borrar variable
+del string
+
+# Convertir (int a string)
+int_to_str = str(123)
 
 # Concatenación
-print("Este es un ej de concatenacion:", bool, string)
+print("Esto es concatenacion:", string)
 
 # length
 print(len(string))
@@ -21,12 +24,6 @@ name, surname, age = "Nicolas", "Pasino", 25
 # Inputs
 name = input('Cual es tu nombre? ')
 print(name)
-
-# ¿Forzar el tipo?
-address: str = "Mi direccion"
-
-# Cambiar de tipo
-address = True
 
 # variables en texto
 print(f"{name} {surname}")

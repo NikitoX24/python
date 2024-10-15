@@ -1,17 +1,17 @@
 # Sin parametros
 def my_funcion():
-  print("Esto es una función")
+  print("Esto es una función sin parámetros")
 
 my_funcion()
 
 
 
-# con parametros
+# Con parametros
 def my_suma(a, b):
   print(a + b)
 
 my_suma(1, 2)
-my_suma(b = 10, a = 5) # especificar
+my_suma(b = 10, a = 5) # especificar parametro
 
 
 
@@ -24,10 +24,11 @@ my_suma("nicolas", "pasino")
 
 
 # Return
-def my_return(a, b):
-  return a + b
+def saludar(name):
+  return "hola " + name
 
-resultado = my_return(10, 5)
+resultado = saludar("nico") # guardar el return
+print(resultado) # imprimir el return
 
 
 

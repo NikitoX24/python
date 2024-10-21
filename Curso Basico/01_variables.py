@@ -1,5 +1,6 @@
 ### Variables ###
 
+# Tipos de variables
 string = "My String variable"
 int = 5
 float = 1.5

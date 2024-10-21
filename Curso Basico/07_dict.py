@@ -12,14 +12,14 @@ my_dict = {
   "Lenguajes": {"JavaScript", "C#", "Python"}
 }
 
-print(my_dict["Nombre"]) # Obtener Valor
-my_dict["Nombre"] = "Brais" # Modificar
 my_dict["Pais"] = "Argentina" # Añadir una clave y valor
-del my_dict["Pais"] # Borrar una clave y valor
+my_dict["Nombre"] = "Brais" # Modificar
+print(my_dict["Nombre"]) # Obtener Valor
 print("Clave" in my_dict) # Buscar clave
+del my_dict["Pais"] # Borrar una clave y valor
 
 # metodos
-print(my_dict.items()) # lista de items
+print(my_dict.items()) # lista de items (clave - valor)
 print(my_dict.keys()) # lista de claves
 print(my_dict.values()) # lista de valores
 my_new_dict = my_dict.fromkeys(my_dict) # nuevo dicc(sin valores) con claves de otros dicts

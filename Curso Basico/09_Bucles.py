@@ -3,8 +3,8 @@
 frutas = ["manzana", "banana", "naranja", "pera", "uvas"]
 
 for fruta in frutas:
-    if fruta == "naranja":
-        continue
+    if fruta == "naranja": 
+       continue # ignorar
     print(fruta)
 else:
   print("Fin del bucle")
@@ -18,4 +18,4 @@ while contador < 5:
     print(contador)
     contador += 1
     if contador == 3:
-        break
+        break # terminar bucle

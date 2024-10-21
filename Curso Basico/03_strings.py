@@ -13,6 +13,11 @@ print(my_string + " " + my_other_string)
 print("Este es un String\ncon salto de línea") # \n  (salto de linea)
 print("\tEste es un String con tabulación") # \t     (tabulación)
 print("\\tEste es un String \\n escapado") # \\      (barra invertida)
+print("""\
+  Esto es un titulo
+      esto tiene un tab     con varios espacios en blanco
+      y salto de línea que se mantienen..
+""") # ""\   mantener tabs y saltos de líneas
 
 # Formateo
 name, surname, age = "Brais", "Moure", 35
@@ -24,25 +29,24 @@ print(f"Mi nombre es {name} {surname} y mi edad es {age}")
 # Desempaqueado de caracteres
 language = "python"
 a, b, c, d, e, f = language
-print(a)
-print(e)
+print(a) # p
+print(e) # o
 
 # División
-print(language[1:3])
-print(language[1:])
-print(language[-2])
-print(language[0:6:2])
+print(language[0])    # p
+print(language[-2])   # o
+print(language[1:])   # ython
+print(language[1:3])  # yt
+print(language[0:6:2])# pto
+print(language[::-1]) # nohtyp (reverse)
 
-# Reverse
-print(language[::-1])
-
-# Funciones del lenguaje
-print(language.capitalize())
-print(language.upper())
-print(language.count("t"))
-print(language.isnumeric())
-print("1".isnumeric())
-print(language.lower())
-print(language.lower().isupper())
-print(language.startswith("Py"))
-print("Py" == "py")  # No es lo mismo
+# Metodos de string
+print(language.capitalize())  # Python
+print(language.upper())       # PYTHON
+print(language.count("t"))    # 1
+print(language.isnumeric())   # false
+print("1".isnumeric())        # true
+print(language.lower())       # python
+print(language.lower().isupper()) # false
+print(language.startswith("Py"))  # false
+print(language == "PYthOn")           # false
